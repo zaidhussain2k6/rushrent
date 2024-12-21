@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Urbanist", serif;
+
+  }
+
+  .heading-main{
+    font-family: 'Clash Display', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 96px;
+    line-height: 80px;
+  }
+
+  .email-button {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 1000px;
+    font-weight: 550;
+    font-size: 34px;
+  }
+
+  .email-button:hover {
+    background-color: #181BF2;
+    color: white;
+    border: 1px solid #181BF2;
+    transition-duration: 1000ms;
+    cursor: pointer;
+  }
+
+  .hero-section {
+    padding-top: 154px;
+    padding-bottom: 154px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .main-logo {
+    max-width: 350px;
+  }
+
+  .para {
+    font-family: "Urbanist", serif;
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .dot {
+    color: #181BF2;
+  }
+
+  .first-section {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    width: auto;
+    height: auto;
+    background-color: #181cf210;
+    gap: 34px;
+  }
+
+  .heading-second {
+    font-family: 'Clash Display', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    font-size: 44px;
+    display: inline-block;
+    width: fit-content;
+    margin: 0;
+    padding: 0;
+  }
+
+  .para-second {
+    font-family: "Urbanist", serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: left;
+    max-width: 660px;
+  }
+
+  .right-div {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+  }
+
+  .heading-third {
+    font-family: "Urbanist", serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: left;
+  }
+
+  .point {
+
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .point-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    max-width: 660px;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Media Queries */
+
+  @media screen and (max-width: 1920px) { 
+    
+    .hero-section {
+      margin-left: 24px;
+      margin-right: 24px;
+    }
+
+    .main-logo {
+      width: 400px;
+    }
+    
+    .heading-main {
+      font-size: 72px;
+    }
+    
+    .para {
+      font-size: 24px;
+    }
+    
+    .email-button {
+      font-size: 18px;
+    }
+
+    .Mockup {
+      width: 400px;
+    }
+
+    .heading-second {
+      font-size: 34px;
+    }
+
+    .heading-third {
+      font-size: 18px;
+    } 
+
+
+
+  }
+  
+  
+  @media screen and (max-width: 780px) { 
+    .main-logo {
+      width: 200px;
+    }
+
+    .heading-main {
+      font-size: 58px;
+      line-height: 60px;
+    }
+
+    .para {
+      font-size: 20px;
+    }
+
+    .email-button {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 458px) { 
+
+    .main-logo {
+      width: 200px;
+    }
+
+    .heading-main {
+      font-size: 42px;
+      line-height: 50px;
+    }
+
+    .para {
+      font-size: 16px;
+    }
+
+    .email-button {
+      font-size: 18px;
+    }
+
+    .first-section {
+      align-items: center;
+      align-content: center;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-top: 60px;
+      padding-bottom: 60px;
+      width: auto;
+      height: auto;
+      background-color: #181cf210;
+      gap: 44px;
+    }
+    
+    .Mockup {
+      width: 300px;
+    }
+
+    .heading-second {
+      font-size: 24px;
+    }
+
+    .para-second {
+      font-size: 16px;
+    }
+
+    .heading-third {
+      font-size: 16px;
+    }
+  }

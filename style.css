@@ -10,6 +10,7 @@
   }
 
   .heading-main{
+    color: white;
     font-family: 'Clash Display', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -26,16 +27,17 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 1000px;
     font-weight: 550;
     font-size: 34px;
   }
 
   .email-button:hover {
-    background-color: #181BF2;
+    background-color: #0c0c0c;
     color: white;
-    border: 1px solid #181BF2;
+    border: 1px solid #181cf200;
     transition-duration: 1000ms;
     cursor: pointer;
   }
@@ -50,6 +52,7 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    background: var(--A, linear-gradient(108deg, #181BF2 0%, #0ABEFF 100%));  
   }
 
   .main-logo {
@@ -60,6 +63,7 @@
     font-family: "Urbanist", serif;
     font-size: 34px;
     text-align: center;
+    color: white;
   }
 
   .dot {
@@ -153,8 +157,8 @@
   @media screen and (max-width: 1920px) { 
     
     .hero-section {
-      margin-left: 24px;
-      margin-right: 24px;
+      margin-left: 0px;
+      margin-right: 0px;
     }
 
     .main-logo {

@@ -9,6 +9,11 @@
 
   }
 
+  .main-icon{
+    max-width: 75px;
+    margin: 8px;
+  }
+
   .heading-main{
     color: white;
     font-family: 'Clash Display', sans-serif;
@@ -161,6 +166,11 @@
       margin-right: 0px;
     }
 
+    .main-icon{
+      max-width: 75px;
+    }
+  
+
     .main-logo {
       width: 400px;
     }
@@ -198,7 +208,11 @@
     .main-logo {
       width: 200px;
     }
-
+    
+    .main-icon{
+      max-width: 50px;
+    }
+  
     .heading-main {
       font-size: 58px;
       line-height: 60px;
@@ -218,6 +232,11 @@
     .main-logo {
       width: 200px;
     }
+
+    .main-icon{
+      max-width: 35px;
+    }
+  
 
     .heading-main {
       font-size: 42px;

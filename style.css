@@ -8,6 +8,63 @@
     font-family: "Urbanist", serif;
 
   }
+  
+  
+
+
+  body {
+    font-family: Arial, sans-serif;
+}
+
+.cookie-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    max-width: 300px;
+    z-index: 1000;
+    display: none;
+}
+
+.cookie-content {
+    text-align: center;
+}
+
+.cookie-content p {
+    margin: 0 0 10px;
+}
+
+.cookie-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cookie-content button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.cookie-content button:hover {
+    background-color: #0056b3;
+}
+
+.cookie-content #declineBtn {
+    background-color: #dc3545;
+}
+
+.cookie-content #declineBtn:hover {
+    background-color: #c82333;
+}
+
 
   .main-icon{
     max-width: 75px;
